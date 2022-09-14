@@ -1,0 +1,53 @@
+.all{
+    font-family: 'Raleway';
+}
+
+/* Topo da página */
+
+.header{
+    display: inline-flex;
+    padding: 2em 8em 2em 9em;
+    align-items: center;
+}
+
+#txtBusca{
+    border-radius: 20px;
+    width: 393px;
+    height: 40px;
+    font-size: 14px;
+    border-style: none;
+    background: #F5F5F5;
+    outline: #F5F5F5; 
+    margin-left: 3em;
+}
+
+#txtBusca::placeholder{
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    padding-left: 1em;
+}
+
+#lupa{
+    position: absolute;
+    top: 48px;
+    right: 710px;
+}
+
+.header_botao{
+    display: flex;
+    width: 182px;
+    height: 51px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2A7AE4;
+    margin-left: 20em;
+}
+
+#btnHeader{
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #2A7AE4;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
