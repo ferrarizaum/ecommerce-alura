@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.header_title:hover{
+    cursor: pointer;
+}
+
 #txtBusca{
     border-radius: 20px;
     width: 393px;
@@ -31,26 +35,33 @@
     position: absolute;
     top: 48px;
     right: 710px;
+    cursor: pointer;
 }
 
 .header_botao{
     display: flex;
-    width: 182px;
-    height: 51px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #2A7AE4;
     margin-left: 20em;
 }
 
 #btnHeader{
+    width: 182px;
+    height: 51px;
     font-family: 'Raleway';
     font-size: 16px;
     color: #2A7AE4;
     border: none;
     cursor: pointer;
     background-color: white;
+    border: 1px solid #2A7AE4;
 }
+
+#btnHeader:hover{
+    transition: 1s;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+
 
 /* Sessão Banner*/
 
@@ -62,7 +73,7 @@
 .banner_texto{
     padding-top: 10em;
     padding-left: 10em;
-    font-weight: 700;
+    font-weight: bold;
     color: #FFFFFF;
     
 }
@@ -93,4 +104,65 @@
     cursor: pointer;
 }
 
+#btnBanner:hover{
+    transition: 1s;
+    background-color: #FFFFFF;
+    color: #2A7AE4;
+}
+
 /* Sessão Star Wars*/
+
+.starWars{
+    padding: 5em 7em 5em 7em;
+}
+
+.sw_texto{
+    display: inline-flex;
+    align-items: center;
+}
+
+.sw_titulo{
+    font-weight: bold;
+    font-size: 32px;
+    white-space: nowrap;
+}
+
+.sw_subtitulo{
+    font-weight: bold;
+    font-size: 16px;
+    color: #2A7AE4;
+    margin-left: 60em;
+    white-space: nowrap;
+}
+
+#seta{
+   margin-left: 1em;
+}
+
+.menu_starWars{
+    display: inline-flex;
+    margin-top: 2em;
+}
+
+.menu_item_sw{
+    margin-right: 2em;
+}
+
+.nome_sw{
+    color: #464646;
+    margin-top: 0.5em;
+}
+
+.preco_sw{
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.ver_produto_sw{
+    color: #2A7AE4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sessão Consoles*/
