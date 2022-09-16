@@ -113,7 +113,7 @@
 /* Sessão Star Wars*/
 
 .starWars{
-    padding: 5em 7em 5em 7em;
+    padding: 5em 7em 2em 7em;
 }
 
 .sw_texto{
@@ -166,3 +166,56 @@
 }
 
 /* Sessão Consoles*/
+
+.consoles{
+    padding: 2em 7em 2em 7em;
+}
+
+.cs_texto{
+    display: inline-flex;
+    align-items: center;
+}
+
+.cs_titulo{
+    font-weight: bold;
+    font-size: 32px;
+    white-space: nowrap;
+}
+
+.cs_subtitulo{
+    font-weight: bold;
+    font-size: 16px;
+    color: #2A7AE4;
+    margin-left: 60em;
+    white-space: nowrap;
+}
+
+#seta{
+   margin-left: 1em;
+}
+
+.menu_consoles{
+    display: inline-flex;
+    margin-top: 2em;
+}
+
+.menu_item_cs{
+    margin-right: 2em;
+}
+
+.nome_cs{
+    color: #464646;
+    margin-top: 0.5em;
+}
+
+.preco_cs{
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.ver_produto_cs{
+    color: #2A7AE4;
+    text-decoration: none;
+    font-weight: bold;
+}
