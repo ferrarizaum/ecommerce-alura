@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+
 .all{
     font-family: 'Raleway';
 }
@@ -206,6 +210,7 @@
 .nome_cs{
     color: #464646;
     margin-top: 0.5em;
+    white-space: nowrap;
 }
 
 .preco_cs{
@@ -219,3 +224,61 @@
     text-decoration: none;
     font-weight: bold;
 }
+
+/* Sessão Diversos*/
+
+.diversos{
+    padding: 2em 7em 2em 7em;
+}
+
+.dv_texto{
+    display: inline-flex;
+    align-items: center;
+}
+
+.dv_titulo{
+    font-weight: bold;
+    font-size: 32px;
+    white-space: nowrap;
+}
+
+.dv_subtitulo{
+    font-weight: bold;
+    font-size: 16px;
+    color: #2A7AE4;
+    margin-left: 60em;
+    white-space: nowrap;
+}
+
+#seta{
+   margin-left: 1em;
+}
+
+.menu_diversos{
+    display: inline-flex;
+    margin-top: 2em;
+}
+
+.menu_item_dv{
+    margin-right: 2em;
+}
+
+.nome_dv{
+    color: #464646;
+    margin-top: 0.5em;
+    white-space: nowrap;
+}
+
+.preco_dv{
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.ver_produto_dv{
+    color: #2A7AE4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sessão Contato*/
