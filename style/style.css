@@ -380,7 +380,11 @@ html{
 
 /* Sessão Rodapé*/
 
-
+.footer{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
 
 
 
