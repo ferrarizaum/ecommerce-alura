@@ -282,3 +282,105 @@ html{
 }
 
 /* Sessão Contato*/
+
+.formcontato{
+    background-color: #EAF2FD;
+    margin-top: 2em;
+}
+
+.formcontato_img{
+    display: flex;
+    padding-top: 4em;
+    padding-left: 7em;
+    float: left;
+}
+
+.menu{
+    display: inline-flex;
+    padding-left: 9em;
+    padding-top: 4em;
+}
+
+.menu_informacoes{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.nome_info{
+    margin-bottom: 2em;
+}
+
+
+.formcontato_texto{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 8em;
+}
+
+.formcontato_titulo{
+    font-weight: bold;
+}
+
+.formcontato_form{
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+#nome{
+    width: 560px;
+    height: 56px;
+    margin-top: 1em;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    outline: #FFFFFF;
+}
+
+#nome::placeholder{
+    font-family: 'Raleway';
+    color: #A2A2A2;
+    font-size: 16px;
+    padding-left: 1em;
+}
+
+#mensagem{
+    width: 560px;
+    height: 82px;
+    margin-top: 1em;
+    resize: none;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    outline: #FFFFFF;
+}
+
+#mensagem::placeholder{
+    font-family: 'Raleway';
+    color: #A2A2A2;
+    font-size: 16px;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+#botao_enviar{
+    margin-top: 1em;
+    width: 165px;
+    height: 51px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #2A7AE4;
+    border: none;
+    cursor: pointer;
+}
+
+/* Sessão Rodapé*/
+
+
+
+
+
