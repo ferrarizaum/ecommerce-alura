@@ -478,3 +478,52 @@ html{
 .formcontato_login{
     background: #EAF2FD;
 }
+
+/* Tela de produtos */
+
+.produtos{
+    background: #F5F5F5;
+}
+
+.produtos_header{
+    display: inline-flex;
+    margin-left: 7em;
+    margin-top: 5em;
+}
+
+.produtos_titulo{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+
+}
+
+.produtos_botao{
+    margin-left: 48em;
+}
+
+#btnProdutos{
+    width: 164px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 16px;
+    border: none;
+}
+
+#btnProdutos:hover{
+    cursor: pointer;
+    transition: 1.5s;
+    background-color: darkblue;
+}
+
+.starWars_produtos{
+    margin-left: 7em;
+    margin-bottom: 2em;
+}
+
+
+.formcontato_produtos{
+    background: #EAF2FD;
+}
