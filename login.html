@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/icon.png">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Login</title>
+</head>
+<body>
+    <div class="all">
+        <section class="header">
+            <header class="header_title">
+                <a href="index.html">
+                    <img src="icons/logo.png">
+                </a>
+            </header>
+            <div class="header_busca">
+                <input type="text" id="txtBusca" placeholder="O que deseja encontrar?" />
+                <img src="icons/lupa.png" alt="Lupa" id="lupa_login"/>
+            </div>
+        </section>
+
+        <section class="login">
+            <div class="login_campos">
+                <h1 class="formlogin_titulo">Iniciar Sessão</h1>
+                <form class="formlogin_form">
+                    <input class="formlogin_usuario" type="text" id="usuario" placeholder="Escreva seu email" maxlength="20" required>
+                    <input class="formlogin_senha" type="text" id="senha" placeholder="Escreva sua senha" maxlength="20" required>
+                    <button class="formlogin_botao" id="botao_login" type="submit">Entrar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="formcontato_login">
+            <div id="contato" class="formcontato_contato">
+                <div class="formcontato_esquerda">
+                    <img class="formcontato_img" src="icons/logo.png">
+                </div>
+                <nav class="menu">
+                    <ul class="menu_informacoes">
+                        <li class="menu_informacoes">
+                            <h1 class="nome_info">Quem somos nós</h1>
+                        </li>
+                        <li class="menu_informacoes">
+                            <h1 class="nome_info">Política de privacidade</h1>
+                        </li>
+                        <li class="menu_informacoes">
+                            <h1 class="nome_info">Programa de fidelidade</h1>
+                        </li>
+                        <li class="menu_informacoes">
+                            <h1 class="nome_info">Nossas lojas</h1>
+                        </li>
+                        <li class="menu_informacoes">
+                            <h1 class="nome_info">Quero ser franqueado</h1>
+                        </li>
+                        <li class="menu_informacoes">
+                            <h1 class="nome_info">Anuncie aqui</h1>
+                        </li>
+                    </ul>
+                    
+                </nav>
+                <div class="formcontato_texto">
+                    <h1 class="formcontato_titulo">Fale conosco</h1>
+                    <form class="formcontato_form" action="mailto:licoverpa321@gmail.com" method="post" enctype="text/plain">
+                        <input class="formcontato_input" type="text" id="nome" placeholder="Nome" maxlength="50" required>
+                        <textarea class="formcontato_textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" maxlength="300" required></textarea>
+                        <button class="formcontato_botao" id="botao_enviar" type="submit">Enviar mensagem</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer_rodape">
+                <p>Desenvolvido por José Ferrari</p>
+                <p>2022</p>
+            </div>
+        </section>
+    </div>
+</body>
